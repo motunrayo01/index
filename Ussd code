@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+ <head>
+
+        <script type= "text/javascript">
+        function yinka(){
+            var a=1;
+            var b=2;
+            var c=3;
+            var d=4;
+            var e=5;
+         
+           var k= prompt(a + "."+" "+ "Buy data\n"+ 
+           b +"." + " "+ "Data roaming\n"+                
+           c +"." + " "+ "Borrow data\n"+                
+           d +"." + " "+ "VAS\n"+                
+           e + "." +" "+ "Data details\n" );                                                                                                         
+        
+             if (k==a) {
+                 var f= 1;
+                 var g= 2;
+                 var h= 3;
+                 var n=prompt( f +"." + " "+"200 for 20mb\n"+
+                 g +"." + " "+"100 for 10mb\n"+
+                 h +"." + " "+"#1000 for 1gb\n"  );
+                 if (n==f){
+                     alert("you have successfully subscibed for 20mb");
+                 }
+                 else if (n==g){
+                    alert("you have successfully subscibed for 10mb");
+                 }
+                 else if (n==h){
+                    alert("you have successfully subscibed for 1gb");
+                 }
+                 else{
+                    alert("you have enter the wrong option");
+                 }
+             } else if(k==b) {
+                 
+             }
+        }
+
+        
+        
+         
+ 
+        </script>
+  </head> 
+   <body>
+       <button onclick="yinka()">USSD code</button>
+    </body>
+</html>         
